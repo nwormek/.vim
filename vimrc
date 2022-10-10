@@ -112,3 +112,4 @@ autocmd BufRead,BufNewFile *.tsconfig    :set filetype=typoscript
 autocmd BufRead,BufNewFile *.mcmeta      :set filetype=json
 autocmd BufRead,BufNewFile *.mcfunction  :set filetype=mcfunction
 
+autocmd BufRead,BufNewFile README        :set filetype=markdown
