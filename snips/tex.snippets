@@ -1,0 +1,48 @@
+snippet tab
+\begin{tabular}{${1:l c r}}
+	${2:content}
+\end{tabular}
+endsnippet
+
+snippet tabx
+\begin{tabularx}{${3:\textwidth}}{${1:l c r}}
+	${2:content}
+\end{tabularx}
+endsnippet
+
+snippet fig
+\begin{figure}[${4:h}]
+	\centering
+	${1:content}
+	\caption{${2:caption}}
+	\label{fig:${3:label}}
+\end{figure}
+endsnippet
+
+snippet tikz
+\begin{tikzpicture}
+	${1:%content}
+\end{tikzpicture}
+endsnippet
+
+snippet ol
+\begin{enumerate}
+	\item ${1:bla bla bla}
+\end{enumerate}
+endsnippet
+
+snippet ul
+\begin{itemize}
+	\item ${1:bla bla bla}
+\end{itemize}
+endsnippet
+
+snippet math
+\[
+	${1:1 + 1 = 2}
+\]
+endsnippet
+
+snippet mathil
+\( ${1:1 + 1 = 2} \)
+endsnippet
