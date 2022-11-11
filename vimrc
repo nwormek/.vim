@@ -5,6 +5,8 @@ call vundle#begin()
 " Required
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'arrufat/vala.vim'
+
 Plugin 'preservim/nerdtree'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'iamcco/markdown-preview.nvim'
