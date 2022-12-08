@@ -38,8 +38,10 @@ set scrolloff=5
 set cc=80
 
 set tabstop=2
+set softtabstop=2
 set shiftwidth=2
-set noexpandtab
+set expandtab
+"set noexpandtab
 
 set smartindent
 set wrap
