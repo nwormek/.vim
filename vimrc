@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'ap/vim-css-color'
 Plugin 'rubixninja314/vim-mcfunction'
+Plugin 'thetek42/vim-blueprint-syntax'
 
 Plugin 'frenzyexists/aquarium-vim'
 Plugin 'ayu-theme/ayu-vim'
