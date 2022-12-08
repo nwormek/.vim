@@ -1,1 +1,1 @@
-set et sts=2
+setlocal et sts=2
